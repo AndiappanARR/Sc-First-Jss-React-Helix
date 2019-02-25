@@ -5,8 +5,8 @@ import { renderToStringWithData } from 'react-apollo';
 import Helmet from 'react-helmet';
 import GraphQLClientFactory from '../src/Foundation/GraphQL/GraphQLClientFactory';
 import config from '../src/temp/config';
-import i18ninit from '../src/i18n';
-import AppRoot, { routePatterns } from '../src/AppRoot';
+import i18ninit from '../src/Foundation/Translation/i18n';
+import AppRoot, { routePatterns } from '../src/Project/SafariZoo/AppRoot';
 import { setServerSideRenderingState } from '../src/Project/SafariZoo/RouteHandler';
 import indexTemplate from '../build/index.html';
 

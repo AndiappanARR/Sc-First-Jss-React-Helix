@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import fetchBackend from 'i18next-fetch-backend';
 import { reactI18nextModule } from 'react-i18next';
-import config from './temp/config';
+import config from '../../temp/config';
 
 /**
  * Initializes the i18next library to provide a translation dictionary to the app.

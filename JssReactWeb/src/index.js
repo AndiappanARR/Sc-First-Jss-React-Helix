@@ -5,7 +5,7 @@ import AppRoot from './Project/SafariZoo/AppRoot';
 import { setServerSideRenderingState } from './Project/SafariZoo/RouteHandler';
 import GraphQLClientFactory from './Foundation/GraphQL/GraphQLClientFactory';
 import config from './temp/config';
-import i18ninit from './i18n';
+import i18ninit from './Foundation/Translation/i18n';
 
 /* eslint-disable no-underscore-dangle */
 
